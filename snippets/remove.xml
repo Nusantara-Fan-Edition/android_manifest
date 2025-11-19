@@ -68,6 +68,8 @@
   <remove-project name="platform/libcore" />
 
   <!-- External -->
+  <remove-project name="platform/external/dng_sdk" />
+  <remove-project name="platform/external/giflib" />
   <remove-project name="platform/external/ARMComputeLibrary" />
   <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/chromium-webview" />
@@ -119,6 +121,7 @@
   <remove-project name="platform/frameworks/opt/net/voip" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Calendar" />

@@ -9,7 +9,6 @@
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
-  <project path="external/chromium-webview" name="android_external_chromium-webview" remote="lineage" revision="master" />
   <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="lineage" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
@@ -74,4 +73,19 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="lineage" />
+
+  <!-- WebView -->
+   <project name="android_external_chromium-libpac" remote="lineage" path="external/chromium-libpac" groups="pdk" />
+   <project name="android_external_chromium-webview_patches" remote="lineage" path="external/chromium-webview/patches" revision="main" >
+     <linkfile src="os_pickup.mk" dest="external/chromium-webview/Android.mk" />
+     <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
+     <linkfile src="README" dest="external/chromium-webview/README" />
+   </project>
+   <project name="android_external_chromium-webview_prebuilt_arm" remote="lineage" path="external/chromium-webview/prebuilt/arm" revision="main" />
+   <project name="android_external_chromium-webview_prebuilt_arm64" remote="lineage" path="external/chromium-webview/prebuilt/arm64" revision="main" />
+   <project name="android_external_chromium-webview_prebuilt_x86" remote="lineage" path="external/chromium-webview/prebuilt/x86" revision="main" />
+   <project name="android_external_chromium-webview_prebuilt_x86_64" remote="lineage" path="external/chromium-webview/prebuilt/x86_64" revision="main" />
+
+   <!-- Live display -->
+    <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
 </manifest>
