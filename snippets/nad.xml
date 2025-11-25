@@ -219,4 +219,8 @@
   <project path="vendor/themes" name="android_vendor_themes" remote="fork" />
   <project path="vendor/nusantara" name="android_vendor_nusantara" remote="fork" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="nad" />
+
+  <!--proton clang -->
+   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="gh" revision="master" clone-depth="1" />
+
 </manifest>
