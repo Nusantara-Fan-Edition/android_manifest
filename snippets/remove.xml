@@ -121,6 +121,7 @@
   <remove-project name="platform/frameworks/opt/net/voip" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/services/Mms" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Browser2" />
